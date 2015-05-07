@@ -4,24 +4,14 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
-cask install adobe-air
-cask install adobe-reader
-cask install firefox
-cask install flash-player
 cask install flash
-cask install github
-cask install google-chrome
-cask install java
-
-## caskroom/versions
-tap caskroom/versions
-
-## homebrew/binary
-tap homebrew/binary
 
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
+
+# Other Homebrew packages
+install git
 
 # App Store applications
 appstore GarageBand
