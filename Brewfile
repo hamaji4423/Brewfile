@@ -5,6 +5,14 @@
 tap caskroom/cask
 install brew-cask
 cask install flash
+cask install vlc
+
+## caskroom/versions
+tap caskroom/versions
+cask install java7
+
+## homebrew/versions
+tap homebrew/versions
 
 ## rcmdnk/file
 tap rcmdnk/file
