@@ -4,10 +4,10 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
-cask flash
-cask java
-cask openoffice
-cask vlc
+cask install flash
+cask install java
+cask install openoffice
+cask install vlc
 
 ## caskroom/versions
 tap caskroom/versions
