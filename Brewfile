@@ -3,23 +3,25 @@
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install flash
-cask install vlc
+brew brew-cask
+cask flash
+cask java
+cask openoffice
+cask vlc
 
 ## caskroom/versions
 tap caskroom/versions
-cask install java7
+cask java7
 
 ## homebrew/versions
 tap homebrew/versions
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 # Other Homebrew packages
-install git
+brew git
 
 # App Store applications
 appstore GarageBand
