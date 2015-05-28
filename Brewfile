@@ -4,14 +4,18 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
-cask install flash
-cask install java
-cask install openoffice
-cask install vlc
+cask flash
+cask java
+cask openoffice
+cask vlc
 
 ## caskroom/versions
 tap caskroom/versions
+cask firefox-ja
 cask java7
+
+## homebrew/brewdler
+tap homebrew/brewdler
 
 ## homebrew/versions
 tap homebrew/versions
